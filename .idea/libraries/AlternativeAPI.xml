@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="AlternativeAPI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/AlternativeAPI-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/AlternativeAuth-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/AlternativeAPI-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/AlternativeAuth-1.0.2.jar!/" />
+    </SOURCES>
+  </library>
+</component>
