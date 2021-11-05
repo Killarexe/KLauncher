@@ -12,8 +12,8 @@ public class Main extends AlternativeBase {
 
     private LauncherPreferences prefs = new LauncherPreferences("KLauncher", 1280, 720, Mover.MOVE);
     private GameFolder folder = new GameFolder("klauncher");
-    private GameLinks links = new GameLinks("", "");
-    private GameForge forge = new GameForge(Forge.DEFAULT, "1.16.5", "36.2.0", "1.16.5");
+    private GameLinks links = new GameLinks("https://raw.githubusercontent.com/Killarexe/KLuncher/main/klauncher/web/", "1.16.5-forge-36.2.0.json");
+    private GameForge forge = new GameForge(Forge.DEFAULT, "1.16.5", "1.16.5-36.2.0", "1.16.5-20210115.111550");
     private GameEngine engine = new GameEngine(folder, links, prefs, GameStyle.FORGE_1_13_HIGHER, forge);
 
     public static void main(String[] args) {
